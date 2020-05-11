@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Airbnb</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="container-fluid">
+   
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-6">
+			<img alt="Bootstrap Image Preview" src="Imagens/airbnb.png" />
+		</div>
+		<div class="col-md-6">
+			<ul class="nav">
+				<li class="nav-item">
+					<a class="nav-link active" href="#">Ajuda</a>
+			</ul>
+			<div class="btn-group" role="group">
+				 
+				<button class="btn btn-secondary" type="button">
+					Cadastrar-se
+				</button>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
+				 
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="navbar-toggler-icon"></span>
+				</button> <a class="navbar-brand" href="#">Florianopolis</a>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="navbar-nav">
+						<li class="nav-item active">
+							 <a class="nav-link" href="#">Data <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							 <a class="nav-link" href="#">Número de hospedes</a>
+						</li>
+					</ul>
+					<form class="form-inline">
+						<input class="form-control mr-sm-2" type="text" /> 
+						<button class="btn btn-primary my-2 my-sm-0" type="submit">
+							Pesquisar acomodação
+						</button>
+					</form>
+					<ul class="navbar-nav ml-md-auto">
+						<li class="nav-item active">
+							 <a class="nav-link" href="#">Exibir mapa<span class="sr-only">(current)</span></a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<h2>
+				Acomodações em Florianópolis
+			</h2>
+			<p>
+				Verifique as restrições de viagem antes de fazer uma reserva.A saúde e a segurança das nossas comunidades vêm sempre em primeiro lugar. Siga as orientações do governo e viaje apenas se for essencial.
+			</p>
+			<div class="btn-group" role="group">
+				 
+				<button class="btn btn-secondary" type="button">
+					Flexibilidade de cancelamento
+				</button> 
+				<button class="btn btn-secondary" type="button">
+					Tipo de lugar
+				</button> 
+				<button class="btn btn-secondary" type="button">
+					Preço
+				</button> 
+				<button class="btn btn-secondary" type="button">
+					Mais filtros
+				</button>
+			</div>
+		</div>
+    </div>
+
+ 
+    <div id="cards" class="row"></div>
+ 
+
+
+	<div class="row">
+		<div class="col-md-12">
+			<nav class="pagination-sm">
+				<ul class="pagination">
+					<li class="page-item">
+						<a class="page-link" href="#">Anterior</a>
+					</li>
+					<li class="page-item">
+						<a class="page-link" href="#">1</a>
+					</li>
+					<li class="page-item">
+						<a class="page-link" href="#">2</a>
+					</li>
+					<li class="page-item">
+						<a class="page-link" href="#">3</a>
+					</li>
+					<li class="page-item">
+						<a class="page-link" href="#">4</a>
+					</li>
+					<li class="page-item">
+						<a class="page-link" href="#">5</a>
+					</li>
+					<li class="page-item">
+						<a class="page-link" href="#">Next</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3">
+			<ul>
+				<li class="list-item">
+					Sobre
+				</li>
+				<li class="list-item">
+					Diversidade e pertencimento
+				</li>
+				<li class="list-item">
+					Acessibilidade
+				</li>
+				<li class="list-item">
+					Confiança e segurança
+				</li>
+				<li class="list-item">
+					Airbnb Citizen
+				</li>
+				<li class="list-item">
+					Newsroom
+				</li>
+			</ul>
+		</div>
+		<div class="col-md-3">
+			<ul>
+				<li class="list-item">
+					COMUNIDADE
+				</li>
+				<li class="list-item">
+					Airbnb Magazine
+				</li>
+				<li class="list-item">
+					Airbnb for Work
+				</li>
+				<li class="list-item">
+					Convide amigos
+				</li>
+				<li class="list-item">
+					Carreiras
+				</li>
+			</ul>
+		</div>
+		<div class="col-md-3">
+			<ul>
+				<li class="list-item">
+					ANFITRIÃO
+				</li>
+				<li class="list-item">
+					Hospede em sua acomodação
+				</li>
+				<li class="list-item">
+					Ofereça uma experiência
+				</li>
+				<li class="list-item">
+					Hospedagem responsável
+				</li>
+				<li class="list-item">
+					Open Homes
+				</li>
+				<li class="list-item">
+					Olimpíadas
+				</li>
+				<li class="list-item">
+					Central de Recursos
+				</li>
+			</ul>
+		</div>
+		<div class="col-md-3">
+			<ul>
+				<li class="list-item">
+					ATENDIMENTO
+				</li>
+				<li class="list-item">
+					Central de Ajuda
+				</li>
+				<li class="list-item">
+					Atendimento ao Bairro
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<ul class="nav">
+				<li class="nav-item">
+					<a class="nav-link active" href="#">© 2020 Airbnb, Inc. All rights reserved</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Privacidade</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled" href="#">Termos</a>
+                </li>
+                <li class="nav-item">
+					<a class="nav-link disabled" href="#">Mapa do site</a>
+                </li>
+				
+			</ul>
+		</div>
+		<div class="col-md-6">
+		</div>
+	</div>
+</div>
+<script src="./indexjs.js"></script> 
+</body>
+</html>
